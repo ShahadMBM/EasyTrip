@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="Xri-fS-yxH"/>
+                                    <tabBarItem systemItem="search" id="Xri-fS-yxH"/>
                                     <tabBarItem title="Offer" image="tag.fill" catalog="system" id="1Ig-bT-jrs"/>
                                     <tabBarItem systemItem="more" id="Urf-mY-aah"/>
                                 </items>
@@ -63,7 +63,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="YTe-Px-BDv"/>
+                                    <tabBarItem systemItem="search" id="YTe-Px-BDv"/>
                                     <tabBarItem title="Offer" image="tag.fill" catalog="system" id="lSc-Nc-Mg3"/>
                                     <tabBarItem systemItem="more" id="8Rh-7r-zgi"/>
                                 </items>
@@ -90,7 +90,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="oBA-ZA-W6p"/>
+                                    <tabBarItem systemItem="search" id="oBA-ZA-W6p"/>
                                     <tabBarItem title="Offer" image="tag.fill" catalog="system" id="2Kr-MO-3MU"/>
                                     <tabBarItem systemItem="more" id="GeT-kD-Uva"/>
                                 </items>
@@ -117,7 +117,7 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <items>
-                                    <tabBarItem systemItem="favorites" id="lOa-Ac-Ndb"/>
+                                    <tabBarItem systemItem="search" id="lOa-Ac-Ndb"/>
                                     <tabBarItem title="Offer" image="tag.fill" catalog="system" id="enY-nt-tHZ"/>
                                     <tabBarItem systemItem="more" id="VoC-lX-bHQ"/>
                                 </items>
