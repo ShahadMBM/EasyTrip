@@ -15,6 +15,8 @@
 		771BFD5827C3738C005A42B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771BFD5627C3738C005A42B9 /* LaunchScreen.storyboard */; };
 		771BFD8127C62472005A42B9 /* AvaliableCarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771BFD7F27C62472005A42B9 /* AvaliableCarCell.swift */; };
 		771BFD8227C62472005A42B9 /* AvaliableCarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771BFD8027C62472005A42B9 /* AvaliableCarCell.xib */; };
+		771BFD8927C6E8D8005A42B9 /* OfferCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771BFD8727C6E8D8005A42B9 /* OfferCell.swift */; };
+		771BFD8A27C6E8D8005A42B9 /* OfferCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 771BFD8827C6E8D8005A42B9 /* OfferCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		771BFD5927C3738C005A42B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		771BFD7F27C62472005A42B9 /* AvaliableCarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaliableCarCell.swift; sourceTree = "<group>"; };
 		771BFD8027C62472005A42B9 /* AvaliableCarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AvaliableCarCell.xib; sourceTree = "<group>"; };
+		771BFD8727C6E8D8005A42B9 /* OfferCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCell.swift; sourceTree = "<group>"; };
+		771BFD8827C6E8D8005A42B9 /* OfferCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +73,8 @@
 				771BFD5427C3738C005A42B9 /* Assets.xcassets */,
 				771BFD5627C3738C005A42B9 /* LaunchScreen.storyboard */,
 				771BFD5927C3738C005A42B9 /* Info.plist */,
+				771BFD8727C6E8D8005A42B9 /* OfferCell.swift */,
+				771BFD8827C6E8D8005A42B9 /* OfferCell.xib */,
 			);
 			path = EasyTrip;
 			sourceTree = "<group>";
@@ -131,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				771BFD8A27C6E8D8005A42B9 /* OfferCell.xib in Resources */,
 				771BFD8227C62472005A42B9 /* AvaliableCarCell.xib in Resources */,
 				771BFD5827C3738C005A42B9 /* LaunchScreen.storyboard in Resources */,
 				771BFD5527C3738C005A42B9 /* Assets.xcassets in Resources */,
@@ -147,6 +154,7 @@
 			files = (
 				771BFD8127C62472005A42B9 /* AvaliableCarCell.swift in Sources */,
 				771BFD5027C3738B005A42B9 /* ViewController.swift in Sources */,
+				771BFD8927C6E8D8005A42B9 /* OfferCell.swift in Sources */,
 				771BFD4C27C3738B005A42B9 /* AppDelegate.swift in Sources */,
 				771BFD4E27C3738B005A42B9 /* SceneDelegate.swift in Sources */,
 			);
