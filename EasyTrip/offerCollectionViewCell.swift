@@ -19,7 +19,7 @@ class offerCollectionViewCell: UICollectionViewCell {
        
         img.image = photo
         advs.text = ad
-        cobon.text = ad
+        cobon.text = co
 
     }
 
