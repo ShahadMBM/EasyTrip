@@ -30,11 +30,15 @@ class offerVC: UIViewController ,UICollectionViewDataSource, UICollectionViewDel
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "offerCell", for: indexPath) as! offerCollectionViewCell
         let offer = arrOffer[indexPath.row]
+        
         cell.layer.cornerRadius = 20
+        
         cell.setupCell(photo:offer.photo, ad: offer.adv, co: offer.cobon)
         return cell
     
 }
+    
+    
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.frame.width, height: 78)
