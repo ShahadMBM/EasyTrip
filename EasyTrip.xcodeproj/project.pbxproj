@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F0DEF2827CCB6520097ED3A /* MoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F0DEF2727CCB6520097ED3A /* MoreTableViewController.swift */; };
 		771BFD4C27C3738B005A42B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771BFD4B27C3738B005A42B9 /* AppDelegate.swift */; };
 		771BFD4E27C3738B005A42B9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771BFD4D27C3738B005A42B9 /* SceneDelegate.swift */; };
 		771BFD5027C3738B005A42B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771BFD4F27C3738B005A42B9 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F0DEF2727CCB6520097ED3A /* MoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreTableViewController.swift; sourceTree = "<group>"; };
 		771BFD4827C3738B005A42B9 /* EasyTrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyTrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		771BFD4B27C3738B005A42B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		771BFD4D27C3738B005A42B9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				779AA16227CCA9AB00290F84 /* offerVC.swift */,
 				778D111A27CCB00B00710BAC /* AVCarsCollectionViewCell.swift */,
 				778D111C27CCB11100710BAC /* AVCarsVC.swift */,
+				6F0DEF2727CCB6520097ED3A /* MoreTableViewController.swift */,
 			);
 			path = EasyTrip;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				771BFD8127C62472005A42B9 /* AvaliableCarCell.swift in Sources */,
+				6F0DEF2827CCB6520097ED3A /* MoreTableViewController.swift in Sources */,
 				778D111B27CCB00B00710BAC /* AVCarsCollectionViewCell.swift in Sources */,
 				778D111D27CCB11100710BAC /* AVCarsVC.swift in Sources */,
 				779AA16127CCA6A600290F84 /* offerCollectionViewCell.swift in Sources */,

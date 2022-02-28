@@ -35,6 +35,7 @@ class offerVC: UIViewController ,UICollectionViewDataSource, UICollectionViewDel
         
         cell.setupCell(photo:offer.photo, ad: offer.adv, co: offer.cobon)
         return cell
+      
     
 }
     
