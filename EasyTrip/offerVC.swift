@@ -9,7 +9,7 @@ import UIKit
 
 class offerVC: UIViewController ,UICollectionViewDataSource, UICollectionViewDelegate , UICollectionViewDelegateFlowLayout{
     
-    var arrOffer = [offer(photo:UIImage(named:"Uber")!, adv: "Invite a friend and get 14% offer", cobon: "#FRI14") , offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17")]
+    var arrOffer = [offer(photo:UIImage(named:"Uber")!, adv: "Invite a friend and get 14% offer", cobon: "#FRI14") , offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17"),offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17"),offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17"),offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17")]
     
     
     @IBOutlet weak var collectionView: UICollectionView!
