@@ -1,0 +1,33 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "0Qg-LO-XU0"; */
+"0Qg-LO-XU0.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Fz-49-Wbm"; */
+"4Fz-49-Wbm.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Offer"; ObjectID = "6Sq-Hb-Ua7"; */
+"6Sq-Hb-Ua7.title" = "Offer";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "6wx-al-aK5"; */
+"6wx-al-aK5.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "JS5-IW-hkB"; */
+"JS5-IW-hkB.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "M2i-Pj-s4S"; */
+"M2i-Pj-s4S.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "fib-j0-wJY"; */
+"fib-j0-wJY.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Available Cars"; ObjectID = "nsl-Pm-E8c"; */
+"nsl-Pm-E8c.title" = "Available Cars";
+
+/* Class = "UIButton"; configuration.title = "Go to App"; ObjectID = "pDM-dG-cWb"; */
+"pDM-dG-cWb.configuration.title" = "Go to App";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pDM-dG-cWb"; */
+"pDM-dG-cWb.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "rqe-SB-Qxb"; */
+"rqe-SB-Qxb.title" = "Item";
