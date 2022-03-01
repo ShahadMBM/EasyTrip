@@ -26,4 +26,9 @@ class AVCarsCollectionViewCell: UICollectionViewCell {
 
     }
     
+    @IBAction func gotoApp(_ sender: UIButton) {
+
+            UIApplication.shared.open(URL(string: "https://m.uber.com/ul/")!)
+        
+    }
 }
