@@ -10,12 +10,15 @@ import MapKit
 
 class mapSearchVC: UIViewController {
 
+    @IBOutlet weak var mapView: MKMapView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    func setStarting () {
+        ///
+    }
 
 }

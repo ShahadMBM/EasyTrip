@@ -18,19 +18,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="qat-YM-vwn">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="L7D-at-vGV">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="qat-YM-vwn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="4mD-KS-uvS"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qat-YM-vwn" secondAttribute="bottom" id="Lr4-0j-83u"/>
-                            <constraint firstItem="qat-YM-vwn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="V8m-UQ-AKF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qat-YM-vwn" secondAttribute="trailing" id="qxX-R1-mLO"/>
+                            <constraint firstItem="L7D-at-vGV" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="gPw-rN-CvH"/>
+                            <constraint firstAttribute="trailing" secondItem="L7D-at-vGV" secondAttribute="trailing" id="gRI-TP-mb6"/>
+                            <constraint firstAttribute="bottom" secondItem="L7D-at-vGV" secondAttribute="bottom" id="nCH-4f-p26"/>
+                            <constraint firstItem="L7D-at-vGV" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="yks-9p-xoZ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="L7D-at-vGV" id="iuf-1P-qdq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -76,7 +79,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fz-49-Wbm">
-                                                    <rect key="frame" x="301" y="18.5" width="47" height="41"/>
+                                                    <rect key="frame" x="301" y="16" width="47" height="46"/>
                                                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="doc.on.clipboard" catalog="system">
