@@ -48,7 +48,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Edy-fD-Tny">
-                                <rect key="frame" x="20" y="88" width="374" height="774"/>
+                                <rect key="frame" x="20" y="167" width="374" height="695"/>
                                 <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Hgn-T4-7jI">
                                     <size key="itemSize" width="128" height="128"/>
@@ -79,7 +79,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fz-49-Wbm">
-                                                    <rect key="frame" x="301" y="5.5" width="47" height="67"/>
+                                                    <rect key="frame" x="301" y="-2" width="47" height="82"/>
                                                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="doc.on.clipboard" catalog="system">
@@ -126,14 +126,26 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="z49-tY-vO0">
+                                <rect key="frame" x="68" y="118" width="279" height="32"/>
+                                <segments>
+                                    <segment title="All"/>
+                                    <segment title="Uber"/>
+                                    <segment title="Careem"/>
+                                </segments>
+                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aHK-o6-S3X"/>
                         <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="aHK-o6-S3X" firstAttribute="trailing" secondItem="Edy-fD-Tny" secondAttribute="trailing" constant="20" id="CFa-KS-NOk"/>
+                            <constraint firstItem="Edy-fD-Tny" firstAttribute="top" secondItem="z49-tY-vO0" secondAttribute="bottom" constant="18" id="FCJ-Eg-cw6"/>
                             <constraint firstItem="Edy-fD-Tny" firstAttribute="leading" secondItem="aHK-o6-S3X" secondAttribute="leading" constant="20" id="QMo-t9-Zjl"/>
+                            <constraint firstItem="z49-tY-vO0" firstAttribute="top" secondItem="aHK-o6-S3X" secondAttribute="top" constant="30" id="VEh-Aa-FZU"/>
                             <constraint firstItem="Edy-fD-Tny" firstAttribute="bottom" secondItem="aHK-o6-S3X" secondAttribute="bottom" id="WMP-tJ-j96"/>
-                            <constraint firstItem="Edy-fD-Tny" firstAttribute="top" secondItem="aHK-o6-S3X" secondAttribute="top" id="XYk-l1-gY4"/>
+                            <constraint firstItem="Edy-fD-Tny" firstAttribute="top" secondItem="aHK-o6-S3X" secondAttribute="top" constant="79" id="XYk-l1-gY4"/>
+                            <constraint firstItem="z49-tY-vO0" firstAttribute="leading" secondItem="aHK-o6-S3X" secondAttribute="leading" constant="68" id="jr2-B3-pCm"/>
+                            <constraint firstItem="aHK-o6-S3X" firstAttribute="trailing" secondItem="z49-tY-vO0" secondAttribute="trailing" constant="67" id="ni4-du-hc6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Offer" id="6Sq-Hb-Ua7">
