@@ -16,6 +16,7 @@ class AVCarsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var TaxiNearby: UILabel!
     
     @IBOutlet weak var taxiApp: UIButton!
+    @IBOutlet weak var DIV: UIView!
     
     func setupCell (TXimg :UIImage, TXname: String , TXprice: String, TXnearby : String){
        

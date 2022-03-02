@@ -79,7 +79,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fz-49-Wbm">
-                                                    <rect key="frame" x="301" y="10.5" width="47" height="57"/>
+                                                    <rect key="frame" x="301" y="6" width="47" height="66"/>
                                                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="doc.on.clipboard" catalog="system">
@@ -234,12 +234,9 @@
                                                             </fragment>
                                                         </attributedString>
                                                     </buttonConfiguration>
-                                                    <connections>
-                                                        <action selector="gotoApp:" destination="5Mo-Eh-5c4" eventType="touchUpInside" id="Kao-n4-FYQ"/>
-                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Qg-LO-XU0">
-                                                    <rect key="frame" x="279" y="22" width="80" height="21"/>
+                                                    <rect key="frame" x="267" y="21" width="80" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -256,17 +253,18 @@
                                                 <constraint firstItem="b9A-Jc-0hY" firstAttribute="leading" secondItem="zZl-Cb-tQa" secondAttribute="leading" constant="17" id="Nzd-G1-eGN"/>
                                                 <constraint firstItem="6wx-al-aK5" firstAttribute="top" secondItem="zZl-Cb-tQa" secondAttribute="top" constant="19" id="Pk4-gO-62t"/>
                                                 <constraint firstItem="b9A-Jc-0hY" firstAttribute="top" secondItem="zZl-Cb-tQa" secondAttribute="top" constant="10" id="XvT-g0-Qq9"/>
-                                                <constraint firstItem="6wx-al-aK5" firstAttribute="baseline" secondItem="0Qg-LO-XU0" secondAttribute="baseline" id="ZI2-lb-8k8"/>
+                                                <constraint firstItem="6wx-al-aK5" firstAttribute="baseline" secondItem="0Qg-LO-XU0" secondAttribute="baseline" constant="1" id="ZI2-lb-8k8"/>
                                                 <constraint firstItem="pDM-dG-cWb" firstAttribute="top" secondItem="1sH-dq-he6" secondAttribute="bottom" constant="13" id="ivf-8c-3zj"/>
                                                 <constraint firstItem="fib-j0-wJY" firstAttribute="centerY" secondItem="pDM-dG-cWb" secondAttribute="centerY" id="n9M-Pp-ld3"/>
                                                 <constraint firstItem="fib-j0-wJY" firstAttribute="top" secondItem="1sH-dq-he6" secondAttribute="bottom" constant="19" id="uyP-Xk-hx4"/>
-                                                <constraint firstItem="0Qg-LO-XU0" firstAttribute="leading" secondItem="6wx-al-aK5" secondAttribute="trailing" constant="63" id="viV-Dx-xfu"/>
+                                                <constraint firstItem="0Qg-LO-XU0" firstAttribute="leading" secondItem="6wx-al-aK5" secondAttribute="trailing" constant="51" id="viV-Dx-xfu"/>
                                                 <constraint firstItem="b9A-Jc-0hY" firstAttribute="centerY" secondItem="zZl-Cb-tQa" secondAttribute="centerY" id="yCh-2M-Q9L"/>
                                                 <constraint firstItem="6wx-al-aK5" firstAttribute="leading" secondItem="b9A-Jc-0hY" secondAttribute="trailing" constant="19" id="zrp-Wd-Z0X"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="385" height="116"/>
                                         <connections>
+                                            <outlet property="DIV" destination="1sH-dq-he6" id="wBN-RE-pjz"/>
                                             <outlet property="TaxiImg" destination="b9A-Jc-0hY" id="Vbg-eG-BrK"/>
                                             <outlet property="TaxiName" destination="6wx-al-aK5" id="uPY-cr-K1L"/>
                                             <outlet property="TaxiNearby" destination="0Qg-LO-XU0" id="H6T-fp-83e"/>
