@@ -23,7 +23,7 @@ class offerVC: UIViewController ,UICollectionViewDataSource, UICollectionViewDel
     var offerUber = [offer(photo:UIImage(named:"Uber")!, adv: "Invite a friend and get 14% offer", cobon: "#FRI14", kind: .Uber)]
     
     var offerCareem = [offer(photo:UIImage(named:"Careem")!, adv: "Invite a friend and get 14% offer", cobon: "#FRI14", kind: .Careem)]
-    
+    ///
 
     
     @IBOutlet weak var collectionView: UICollectionView!
