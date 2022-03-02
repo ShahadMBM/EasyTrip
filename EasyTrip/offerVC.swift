@@ -7,9 +7,23 @@
 
 import UIKit
 
+
+enum Kinds {
+    case Uber
+    case Careem
+    case All
+    case Jenny
+}
 class offerVC: UIViewController ,UICollectionViewDataSource, UICollectionViewDelegate , UICollectionViewDelegateFlowLayout{
+    @IBOutlet weak var segemntedOffer: UISegmentedControl!
     
-    var arrOffer = [offer(photo:UIImage(named:"Uber")!, adv: "Invite a friend and get 14% offer", cobon: "#FRI14", kind: "Uber") , offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17", kind: "Careem"),offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17", kind: "Careem"),offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17", kind: "Careem"),offer(photo:UIImage(named: "Jenny")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17", kind: "Jeeny")]
+    var arrOffer = [offer(photo:UIImage(named:"Uber")!, adv: "Invite a friend and get 14% offer", cobon: "#FRI14", kind: .Uber) , offer(photo:UIImage(named: "Jenny")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17", kind: .Careem),offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17", kind: .Careem),offer(photo:UIImage(named: "Careem")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17", kind: .Careem),offer(photo:UIImage(named: "Jenny")!, adv: "Invite a friend and get 17% offer", cobon: "#FRI17", kind: .Jenny)]
+    
+    
+    var offerUber = [offer(photo:UIImage(named:"Uber")!, adv: "Invite a friend and get 14% offer", cobon: "#FRI14", kind: .Uber)]
+    
+    var offerCareem = [offer(photo:UIImage(named:"Careem")!, adv: "Invite a friend and get 14% offer", cobon: "#FRI14", kind: .Careem)]
+    
 
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -20,21 +34,63 @@ class offerVC: UIViewController ,UICollectionViewDataSource, UICollectionViewDel
         
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+        
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func selectSegment(_ sender: UISegmentedControl) {
+     
+        collectionView.reloadData()
+        
+        
+        
+    }
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return arrOffer.count
+    
+        switch segemntedOffer.selectedSegmentIndex {
+        case 0:
+            return arrOffer.count
+        case 1:
+            return offerUber.count
+        case 2:
+            return offerCareem.count
+        default:
+            return 0
+        }
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "offerCell", for: indexPath) as! offerCollectionViewCell
-        let offer = arrOffer[indexPath.row]
         
-        cell.layer.cornerRadius = 20
-        
-        cell.setupCell(photo:offer.photo, ad: offer.adv, co: offer.cobon)
-        return cell
+            switch segemntedOffer.selectedSegmentIndex {
+            case 0:
+                let offer = arrOffer[indexPath.row]
+                
+                cell.layer.cornerRadius = 20
+                
+                cell.setupCell(photo:offer.photo, ad: offer.adv, co: offer.cobon)
+                return cell
+            case 1:
+                
+                let offer = offerUber[indexPath.row]
+                
+                cell.layer.cornerRadius = 20
+                
+                cell.setupCell(photo:offer.photo, ad: offer.adv, co: offer.cobon)
+                return cell
+            case 2:
+               
+                let offer = offerCareem[indexPath.row]
+                
+                cell.layer.cornerRadius = 20
+                
+                cell.setupCell(photo:offer.photo, ad: offer.adv, co: offer.cobon)
+                return cell
+            default:
+                return UICollectionViewCell()
+            }
+       
       
     
 }
@@ -54,7 +110,7 @@ struct offer {
 var photo : UIImage
 var adv: String
 var cobon : String
-var kind : String
+var kind : Kinds
   
 }
 

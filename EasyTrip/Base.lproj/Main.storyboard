@@ -79,7 +79,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fz-49-Wbm">
-                                                    <rect key="frame" x="301" y="-3" width="47" height="84"/>
+                                                    <rect key="frame" x="301" y="-3.5" width="47" height="85"/>
                                                     <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="doc.on.clipboard" catalog="system">
@@ -133,6 +133,9 @@
                                     <segment title="Uber"/>
                                     <segment title="Careem"/>
                                 </segments>
+                                <connections>
+                                    <action selector="selectSegment:" destination="tps-Te-kiT" eventType="valueChanged" id="jjL-fM-Ohh"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aHK-o6-S3X"/>
@@ -153,6 +156,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="Edy-fD-Tny" id="uqT-q6-bvt"/>
+                        <outlet property="segemntedOffer" destination="z49-tY-vO0" id="1Sf-4n-abU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yMd-fe-Cwj" sceneMemberID="firstResponder"/>
