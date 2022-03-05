@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="xBA-qZ-jqI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="gCE-Mi-Ux8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Edy-fD-Tny">
-                                <rect key="frame" x="20" y="167" width="374" height="695"/>
+                                <rect key="frame" x="20" y="167" width="374" height="646"/>
                                 <color key="backgroundColor" red="0.94509803920000002" green="0.94901960780000005" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Hgn-T4-7jI">
                                     <size key="itemSize" width="128" height="128"/>
@@ -160,12 +160,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yMd-fe-Cwj" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1157.9710144927537" y="191.51785714285714"/>
+            <point key="canvasLocation" x="-1917" y="1861"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Offer-->
         <scene sceneID="6zc-SA-XAD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BAl-lc-Emv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Offer" image="tag" catalog="system" selectedImage="tag.fill" id="yoJ-U9-ggl"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="aee-zf-daM">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -178,7 +179,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uGx-pj-wl6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="249" y="192"/>
+            <point key="canvasLocation" x="-1917" y="1115"/>
         </scene>
         <!--More-->
         <scene sceneID="quH-4l-X8d">
@@ -387,12 +388,13 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0f4-pr-aia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="zdo-yf-GMH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2906" y="176"/>
+            <point key="canvasLocation" x="-526" y="1948"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9Xr-xN-Jph">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8N5-9P-lwa" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="more" id="Msx-1a-fM5"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="rDW-UA-0jU">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -405,7 +407,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7fS-IY-2dV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1996" y="176"/>
+            <point key="canvasLocation" x="-526" y="1115"/>
         </scene>
         <!--Available Cars-->
         <scene sceneID="1Yz-ch-iN3">
@@ -551,7 +553,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WGA-qa-WJZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2273.913043478261" y="882.58928571428567"/>
+            <point key="canvasLocation" x="-3216" y="3381"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2U5-q2-Wzn">
@@ -569,7 +571,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bXe-XD-cbU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1363.768115942029" y="882.58928571428567"/>
+            <point key="canvasLocation" x="-4129" y="3381"/>
         </scene>
         <!--MapVC-->
         <scene sceneID="ttQ-gE-64E">
@@ -580,7 +582,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="nsC-BS-azK">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
                             </mapView>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DIA-3R-6ky">
                                 <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -597,13 +599,52 @@
                             <constraint firstItem="nsC-BS-azK" firstAttribute="leading" secondItem="7FN-AZ-USL" secondAttribute="leading" id="eL5-Ea-bz8"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Pj0-lO-Qpf"/>
                     <connections>
                         <outlet property="mapview" destination="nsC-BS-azK" id="Tlv-Ze-JeR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9hp-vL-lsu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-372" y="883"/>
+            <point key="canvasLocation" x="-3672" y="1861"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2me-L5-O9x">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MuD-BV-bbj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="search" id="tdt-Ff-yEi"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DNf-rD-Xg0">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xBA-qZ-jqI" kind="relationship" relationship="rootViewController" id="Eio-qr-Nlh"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hQa-2U-fRm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3178" y="1115"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="KTr-D6-NuL">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="gCE-Mi-Ux8" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="JKg-9e-tsy">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="MuD-BV-bbj" kind="relationship" relationship="viewControllers" id="qot-iV-p1o"/>
+                        <segue destination="BAl-lc-Emv" kind="relationship" relationship="viewControllers" id="00w-Ai-EKp"/>
+                        <segue destination="8N5-9P-lwa" kind="relationship" relationship="viewControllers" id="6XZ-l0-zdU"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gVO-RI-p0G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2284" y="394"/>
         </scene>
     </scenes>
     <resources>
@@ -616,6 +657,8 @@
         <image name="pencil.and.ellipsis.rectangle" catalog="system" width="128" height="81"/>
         <image name="phone" catalog="system" width="128" height="115"/>
         <image name="questionmark.circle" catalog="system" width="128" height="121"/>
+        <image name="tag" catalog="system" width="128" height="119"/>
+        <image name="tag.fill" catalog="system" width="128" height="119"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
