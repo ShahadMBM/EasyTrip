@@ -15,11 +15,12 @@
 		771BFD5527C3738C005A42B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771BFD5427C3738C005A42B9 /* Assets.xcassets */; };
 		771BFD5827C3738C005A42B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771BFD5627C3738C005A42B9 /* LaunchScreen.storyboard */; };
 		776A197527D3ED61005714BA /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A197427D3ED61005714BA /* MapVC.swift */; };
+		776A197B27D40801005714BA /* searchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A197A27D40801005714BA /* searchCell.swift */; };
+		776A197F27D40845005714BA /* selectDestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A197E27D40845005714BA /* selectDestVC.swift */; };
 		778D111B27CCB00B00710BAC /* AVCarsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778D111A27CCB00B00710BAC /* AVCarsCollectionViewCell.swift */; };
 		778D111D27CCB11100710BAC /* AVCarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778D111C27CCB11100710BAC /* AVCarsVC.swift */; };
 		779AA16127CCA6A600290F84 /* offerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779AA16027CCA6A600290F84 /* offerCollectionViewCell.swift */; };
 		779AA16327CCA9AB00290F84 /* offerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779AA16227CCA9AB00290F84 /* offerVC.swift */; };
-		779AA16727CCC44500290F84 /* mapSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779AA16627CCC44500290F84 /* mapSearchVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,11 +33,12 @@
 		771BFD5427C3738C005A42B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		771BFD5727C3738C005A42B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		776A197427D3ED61005714BA /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		776A197A27D40801005714BA /* searchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCell.swift; sourceTree = "<group>"; };
+		776A197E27D40845005714BA /* selectDestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectDestVC.swift; sourceTree = "<group>"; };
 		778D111A27CCB00B00710BAC /* AVCarsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCarsCollectionViewCell.swift; sourceTree = "<group>"; };
 		778D111C27CCB11100710BAC /* AVCarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCarsVC.swift; sourceTree = "<group>"; };
 		779AA16027CCA6A600290F84 /* offerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offerCollectionViewCell.swift; sourceTree = "<group>"; };
 		779AA16227CCA9AB00290F84 /* offerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offerVC.swift; sourceTree = "<group>"; };
-		779AA16627CCC44500290F84 /* mapSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapSearchVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 				778D111A27CCB00B00710BAC /* AVCarsCollectionViewCell.swift */,
 				778D111C27CCB11100710BAC /* AVCarsVC.swift */,
 				6F0DEF2727CCB6520097ED3A /* MoreTableViewController.swift */,
-				779AA16627CCC44500290F84 /* mapSearchVC.swift */,
 				776A197427D3ED61005714BA /* MapVC.swift */,
+				776A197A27D40801005714BA /* searchCell.swift */,
+				776A197E27D40845005714BA /* selectDestVC.swift */,
 			);
 			path = EasyTrip;
 			sourceTree = "<group>";
@@ -158,15 +161,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F0DEF2827CCB6520097ED3A /* MoreTableViewController.swift in Sources */,
+				776A197B27D40801005714BA /* searchCell.swift in Sources */,
 				778D111B27CCB00B00710BAC /* AVCarsCollectionViewCell.swift in Sources */,
 				778D111D27CCB11100710BAC /* AVCarsVC.swift in Sources */,
 				779AA16127CCA6A600290F84 /* offerCollectionViewCell.swift in Sources */,
 				771BFD5027C3738B005A42B9 /* ViewController.swift in Sources */,
 				776A197527D3ED61005714BA /* MapVC.swift in Sources */,
 				779AA16327CCA9AB00290F84 /* offerVC.swift in Sources */,
+				776A197F27D40845005714BA /* selectDestVC.swift in Sources */,
 				771BFD4C27C3738B005A42B9 /* AppDelegate.swift in Sources */,
 				771BFD4E27C3738B005A42B9 /* SceneDelegate.swift in Sources */,
-				779AA16727CCC44500290F84 /* mapSearchVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
