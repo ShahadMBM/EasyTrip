@@ -7,7 +7,7 @@
 
 import UIKit
 
-class selectDestVC: UIViewController,UITableViewDelegate, UITableViewDataSource , UISearchBarDelegate{
+class selectDestVC: UIViewController,UITableViewDelegate, UITableViewDataSource , UISearchBarDelegate {
     
     @IBOutlet weak var currentSearch: UISearchBar!
     
@@ -15,16 +15,17 @@ class selectDestVC: UIViewController,UITableViewDelegate, UITableViewDataSource 
     let arrdata = ["A4 PNU", "Alnakheel Mall" , "Riyadh Front" , "Apple Developer Academy", "King Khalid International Airport"]
     
     var filtereData : [String]!
-    
     @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
         searchBar.delegate = self
-        
+        currentSearch.delegate = self
         filtereData = arrdata
+        
        // searchbar.
 
         
@@ -48,7 +49,7 @@ let cell = tableView.dequeueReusableCell(withIdentifier: "sCell") as! searchCell
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         filtereData = []
         
-        if searchText == ""{
+        if searchText == "" {
             
             filtereData = arrdata
         }
@@ -63,6 +64,7 @@ let cell = tableView.dequeueReusableCell(withIdentifier: "sCell") as! searchCell
         }
         }
         self.tableView.reloadData()
+        
         
     }
 }

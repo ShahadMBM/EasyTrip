@@ -17,6 +17,7 @@
 		776A197527D3ED61005714BA /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A197427D3ED61005714BA /* MapVC.swift */; };
 		776A197B27D40801005714BA /* searchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A197A27D40801005714BA /* searchCell.swift */; };
 		776A197F27D40845005714BA /* selectDestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A197E27D40845005714BA /* selectDestVC.swift */; };
+		776A198127D49D11005714BA /* categoryMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776A198027D49D11005714BA /* categoryMapCell.swift */; };
 		778D111B27CCB00B00710BAC /* AVCarsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778D111A27CCB00B00710BAC /* AVCarsCollectionViewCell.swift */; };
 		778D111D27CCB11100710BAC /* AVCarsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 778D111C27CCB11100710BAC /* AVCarsVC.swift */; };
 		779AA16127CCA6A600290F84 /* offerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779AA16027CCA6A600290F84 /* offerCollectionViewCell.swift */; };
@@ -35,6 +36,7 @@
 		776A197427D3ED61005714BA /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
 		776A197A27D40801005714BA /* searchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchCell.swift; sourceTree = "<group>"; };
 		776A197E27D40845005714BA /* selectDestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectDestVC.swift; sourceTree = "<group>"; };
+		776A198027D49D11005714BA /* categoryMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categoryMapCell.swift; sourceTree = "<group>"; };
 		778D111A27CCB00B00710BAC /* AVCarsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCarsCollectionViewCell.swift; sourceTree = "<group>"; };
 		778D111C27CCB11100710BAC /* AVCarsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCarsVC.swift; sourceTree = "<group>"; };
 		779AA16027CCA6A600290F84 /* offerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offerCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				776A197427D3ED61005714BA /* MapVC.swift */,
 				776A197A27D40801005714BA /* searchCell.swift */,
 				776A197E27D40845005714BA /* selectDestVC.swift */,
+				776A198027D49D11005714BA /* categoryMapCell.swift */,
 			);
 			path = EasyTrip;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776A198127D49D11005714BA /* categoryMapCell.swift in Sources */,
 				6F0DEF2827CCB6520097ED3A /* MoreTableViewController.swift in Sources */,
 				776A197B27D40801005714BA /* searchCell.swift in Sources */,
 				778D111B27CCB00B00710BAC /* AVCarsCollectionViewCell.swift in Sources */,
@@ -324,6 +328,7 @@
 				DEVELOPMENT_TEAM = U52562826U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyTrip/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -352,6 +357,7 @@
 				DEVELOPMENT_TEAM = U52562826U;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = EasyTrip/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

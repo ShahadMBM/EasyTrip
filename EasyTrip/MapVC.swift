@@ -9,10 +9,15 @@
 import UIKit
 import MapKit
 import CoreLocation
-class MapVC: UIViewController , CLLocationManagerDelegate {
-
+class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDelegate , UICollectionViewDataSource  {
+  
+    
+    @IBOutlet weak var collectionView: UICollectionView!
+    
     @IBOutlet weak var mapview: MKMapView!
     var locationMnager = CLLocationManager()
+    let categoery = ["Home" , "work" , "gym"]
+    
     override func viewDidLoad() {
         
         super.viewDidLoad()
@@ -104,6 +109,20 @@ class MapVC: UIViewController , CLLocationManagerDelegate {
         alert.addAction(UIAlertAction(title: "Close", style: .default ))
          present (alert, animated: true, completion: nil)
         
+    }
+    
+    
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return categoery.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//
+
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell" , for: indexPath) as! categoryMapCell
+        cell.title.text = categoery[indexPath.row]
+//
+     return cell
     }
 
     
