@@ -640,6 +640,7 @@
                     <connections>
                         <segue destination="MuD-BV-bbj" kind="relationship" relationship="viewControllers" id="qot-iV-p1o"/>
                         <segue destination="BAl-lc-Emv" kind="relationship" relationship="viewControllers" id="00w-Ai-EKp"/>
+                        <segue destination="8N5-9P-lwa" kind="relationship" relationship="viewControllers" id="PVa-di-yki"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gVO-RI-p0G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
