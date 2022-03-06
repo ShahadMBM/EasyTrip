@@ -15,7 +15,7 @@ class offerCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var copyBtn: UIButton!
     
     @IBAction func pressedCopy(_ sender: UIButton) {
-        
+        //
         sender.setImage(UIImage(systemName: "doc.on.clipboard.fill"), for: .normal)
       ///
         ///
