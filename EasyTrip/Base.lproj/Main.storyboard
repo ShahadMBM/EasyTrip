@@ -522,7 +522,7 @@
                                 </cells>
                             </collectionView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dK8-Wn-znF">
-                                <rect key="frame" x="20" y="88" width="374" height="32"/>
+                                <rect key="frame" x="20" y="106" width="374" height="32"/>
                                 <segments>
                                     <segment title="Economy "/>
                                     <segment title="XL "/>
@@ -536,9 +536,9 @@
                         <viewLayoutGuide key="safeArea" id="4ap-fU-lko"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="mcS-YJ-2fG" firstAttribute="top" secondItem="dK8-Wn-znF" secondAttribute="bottom" constant="46" id="2Lh-J8-vyo"/>
+                            <constraint firstItem="mcS-YJ-2fG" firstAttribute="top" secondItem="dK8-Wn-znF" secondAttribute="bottom" constant="28" id="2Lh-J8-vyo"/>
                             <constraint firstItem="mcS-YJ-2fG" firstAttribute="leading" secondItem="ewN-PF-Dd2" secondAttribute="leading" id="FXm-Bd-ZsB"/>
-                            <constraint firstItem="dK8-Wn-znF" firstAttribute="top" secondItem="4ap-fU-lko" secondAttribute="top" id="GiD-Bd-22t"/>
+                            <constraint firstItem="dK8-Wn-znF" firstAttribute="top" secondItem="4ap-fU-lko" secondAttribute="top" constant="18" id="GiD-Bd-22t"/>
                             <constraint firstItem="dK8-Wn-znF" firstAttribute="centerX" secondItem="mcS-YJ-2fG" secondAttribute="centerX" id="IwG-tc-gVN"/>
                             <constraint firstAttribute="trailing" secondItem="mcS-YJ-2fG" secondAttribute="trailing" id="XWR-uy-mwP"/>
                             <constraint firstItem="mcS-YJ-2fG" firstAttribute="bottom" secondItem="4ap-fU-lko" secondAttribute="bottom" id="heH-FN-5Ih"/>
