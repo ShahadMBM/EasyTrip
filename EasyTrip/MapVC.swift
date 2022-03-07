@@ -9,9 +9,10 @@
 import UIKit
 import MapKit
 import CoreLocation
-class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDelegate , UICollectionViewDataSource  {
+class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDelegate , UICollectionViewDataSource , UISearchBarDelegate {
   
     
+    @IBOutlet weak var search1: UISearchBar!
     @IBOutlet weak var collectionView: UICollectionView!
     
     @IBOutlet weak var mapview: MKMapView!
@@ -23,6 +24,11 @@ class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDeleg
         super.viewDidLoad()
         locationMnager.delegate = self
         locationMnager.desiredAccuracy = kCLLocationAccuracyBest
+        
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        search1.delegate = self
+        navigationItem.titleView = search1
 
         if  isLocationServiceEnabled(){
             checkAutoraization()
@@ -121,11 +127,16 @@ class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDeleg
 
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell" , for: indexPath) as! categoryMapCell
         cell.title.text = categoery[indexPath.row]
+       
 //
      return cell
     }
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "search27") as! selectDestVC
+        navigationController?.pushViewController(vc, animated: true)
+    }
 
-    
+   
     }
     
 
