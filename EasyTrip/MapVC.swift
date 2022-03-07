@@ -132,6 +132,7 @@ class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDeleg
      return cell
     }
     func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        search1.endEditing(true)
         let vc = storyboard?.instantiateViewController(withIdentifier: "search27") as! selectDestVC
         navigationController?.pushViewController(vc, animated: true)
     }

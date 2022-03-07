@@ -12,6 +12,7 @@ class selectDestVC: UIViewController,UITableViewDelegate, UITableViewDataSource 
     @IBOutlet weak var currentSearch: UISearchBar!
     
     @IBOutlet weak var searchBar: UISearchBar!
+    
     let arrdata = ["A4 PNU", "Alnakheel Mall" , "Riyadh Front" , "Apple Developer Academy", "King Khalid International Airport"]
     
     var filtereData : [String]!
@@ -24,8 +25,10 @@ class selectDestVC: UIViewController,UITableViewDelegate, UITableViewDataSource 
         tableView.dataSource = self
         searchBar.delegate = self
         currentSearch.delegate = self
+        currentSearch.isUserInteractionEnabled = false
         filtereData = arrdata
-        
+        currentSearch.setImage(UIImage(), for: .search, state: .normal)
+        searchBar.setImage(UIImage(), for: .search, state: .focused)
        // searchbar.
 
         
@@ -66,5 +69,15 @@ let cell = tableView.dequeueReusableCell(withIdentifier: "sCell") as! searchCell
         self.tableView.reloadData()
         
         
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedItem = filtereData[indexPath.row]
+        searchBar.text = selectedItem
+        
+    }
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        let vc1 = storyboard?.instantiateViewController(withIdentifier: "search28") as! AVCarsVC
+        navigationController?.pushViewController(vc1, animated: true)
     }
 }
