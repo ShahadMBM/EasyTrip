@@ -633,21 +633,6 @@
             </objects>
             <point key="canvasLocation" x="-2020" y="1861"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="gHN-lz-eIh">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="abA-VM-xif" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fcm-bR-eyN">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cFo-ie-QxU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-4546.376811594203" y="2197.0982142857142"/>
-        </scene>
         <!--Available Cars-->
         <scene sceneID="l2k-zX-L5B">
             <objects>
@@ -658,7 +643,7 @@
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lu1-XY-BOz">
                                 <rect key="frame" x="0.0" y="168" width="414" height="694"/>
-                                <color key="backgroundColor" red="0.94509804249999996" green="0.94901961089999998" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Qdm-AB-fxY">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
