@@ -524,7 +524,6 @@
         <!--Navigation Controller-->
         <scene sceneID="2me-L5-O9x">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="hQa-2U-fRm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MuD-BV-bbj" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" systemItem="search" id="tdt-Ff-yEi"/>
                     <toolbarItems/>
@@ -537,6 +536,7 @@
                         <segue destination="xBA-qZ-jqI" kind="relationship" relationship="rootViewController" id="Eio-qr-Nlh"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hQa-2U-fRm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-3178" y="1115"/>
         </scene>

@@ -27,6 +27,12 @@ class AVCarsCollectionViewCell: UICollectionViewCell {
          selectedApp = TXname
         TaxiNearby.text = TXnearby
 
+            self.TaxiName.isAccessibilityElement = false
+            self.TaxiNearby.isAccessibilityElement = false
+            self.TaxiPrice.isAccessibilityElement = false
+            self.TaxiImg.isAccessibilityElement = false
+            isAccessibilityElement = true
+            accessibilityLabel = "taxi app name \(TXname) the \(TXnearby) the price of the trip \(TXprice) tap here to go to \(TXname) app"
     }
     
     @IBAction func gotoApp(_ sender: UIButton) {
