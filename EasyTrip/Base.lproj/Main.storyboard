@@ -126,7 +126,7 @@
                                 </cells>
                             </collectionView>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="z49-tY-vO0">
-                                <rect key="frame" x="68" y="118" width="279" height="32"/>
+                                <rect key="frame" x="43" y="118" width="327" height="32"/>
                                 <segments>
                                     <segment title="All"/>
                                     <segment title="Uber"/>
@@ -146,8 +146,8 @@
                             <constraint firstItem="z49-tY-vO0" firstAttribute="top" secondItem="aHK-o6-S3X" secondAttribute="top" constant="30" id="VEh-Aa-FZU"/>
                             <constraint firstItem="Edy-fD-Tny" firstAttribute="bottom" secondItem="aHK-o6-S3X" secondAttribute="bottom" id="WMP-tJ-j96"/>
                             <constraint firstItem="Edy-fD-Tny" firstAttribute="top" secondItem="aHK-o6-S3X" secondAttribute="top" constant="79" id="XYk-l1-gY4"/>
-                            <constraint firstItem="z49-tY-vO0" firstAttribute="leading" secondItem="aHK-o6-S3X" secondAttribute="leading" constant="68" id="jr2-B3-pCm"/>
-                            <constraint firstItem="aHK-o6-S3X" firstAttribute="trailing" secondItem="z49-tY-vO0" secondAttribute="trailing" constant="67" id="ni4-du-hc6"/>
+                            <constraint firstItem="z49-tY-vO0" firstAttribute="leading" secondItem="aHK-o6-S3X" secondAttribute="leading" constant="43" id="jr2-B3-pCm"/>
+                            <constraint firstItem="aHK-o6-S3X" firstAttribute="trailing" secondItem="z49-tY-vO0" secondAttribute="trailing" constant="44" id="ni4-du-hc6"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Offer" id="6Sq-Hb-Ua7">
@@ -390,7 +390,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0f4-pr-aia" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="zdo-yf-GMH" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="384.05797101449281" y="1947.9910714285713"/>
+            <point key="canvasLocation" x="-62" y="1861"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9Xr-xN-Jph">
@@ -519,7 +519,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9hp-vL-lsu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2762.3188405797105" y="1860.9375"/>
+            <point key="canvasLocation" x="-4703" y="1861"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2me-L5-O9x">
@@ -642,7 +642,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="e2Q-9u-MvA" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2020" y="1861"/>
+            <point key="canvasLocation" x="-3797" y="1861"/>
         </scene>
         <!--Available Cars-->
         <scene sceneID="l2k-zX-L5B">
@@ -652,8 +652,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lu1-XY-BOz">
-                                <rect key="frame" x="0.0" y="168" width="414" height="694"/>
+                            <segmentedControl opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dd0-Ey-We9">
+                                <rect key="frame" x="20" y="88" width="327" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Economy "/>
+                                    <segment title="XL "/>
+                                    <segment title="VIP"/>
+                                </segments>
+                                <connections>
+                                    <action selector="DidChangedSegmented:" destination="IZ3-WK-He1" eventType="valueChanged" id="flT-34-K3U"/>
+                                </connections>
+                            </segmentedControl>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="lu1-XY-BOz">
+                                <rect key="frame" x="0.0" y="101" width="414" height="694"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Qdm-AB-fxY">
                                     <size key="itemSize" width="128" height="128"/>
@@ -759,18 +771,6 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <segmentedControl opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="dd0-Ey-We9">
-                                <rect key="frame" x="20" y="88" width="357" height="32"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <segments>
-                                    <segment title="Economy "/>
-                                    <segment title="XL "/>
-                                    <segment title="VIP"/>
-                                </segments>
-                                <connections>
-                                    <action selector="DidChangedSegmented:" destination="IZ3-WK-He1" eventType="valueChanged" id="flT-34-K3U"/>
-                                </connections>
-                            </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Yhw-Im-eyb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -789,7 +789,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yy1-kk-tbk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3636.2318840579715" y="3003.3482142857142"/>
+            <point key="canvasLocation" x="-2125" y="1861"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Nml-1h-MQD">
@@ -807,7 +807,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EyR-jo-Hne" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4546" y="3004"/>
+            <point key="canvasLocation" x="-2971" y="1861"/>
         </scene>
     </scenes>
     <resources>
