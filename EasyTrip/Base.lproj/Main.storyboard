@@ -151,7 +151,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Offer" id="6Sq-Hb-Ua7">
-                        <barButtonItem key="rightBarButtonItem" title="Item" image="bell" catalog="system" id="rqe-SB-Qxb"/>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="bell" catalog="system" id="rqe-SB-Qxb">
+                            <color key="tintColor" red="0.40392160420000001" green="0.6784313917" blue="0.8078432083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="Edy-fD-Tny" id="uqT-q6-bvt"/>
@@ -445,26 +447,34 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES"/>
                                                     <subviews>
                                                         <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="2qZ-WY-R43">
-                                                            <rect key="frame" x="45" y="16" width="41.5" height="20.5"/>
+                                                            <rect key="frame" x="45" y="16" width="51" height="50"/>
                                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         </stackView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HLu-Vc-crC">
-                                                            <rect key="frame" x="55" y="5" width="176" height="58"/>
+                                                            <rect key="frame" x="86" y="5" width="157" height="58"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dJi-w1-rJ0">
+                                                            <rect key="frame" x="15" y="17" width="51" height="34"/>
+                                                        </imageView>
                                                     </subviews>
                                                     <constraints>
+                                                        <constraint firstItem="dJi-w1-rJ0" firstAttribute="top" secondItem="3XG-sE-Vy0" secondAttribute="top" constant="17" id="78k-u8-8kC"/>
                                                         <constraint firstItem="HLu-Vc-crC" firstAttribute="top" secondItem="3XG-sE-Vy0" secondAttribute="top" constant="5" id="9zZ-zm-PJK"/>
                                                         <constraint firstAttribute="bottom" secondItem="HLu-Vc-crC" secondAttribute="bottom" constant="5" id="BfZ-GU-Iot"/>
-                                                        <constraint firstItem="HLu-Vc-crC" firstAttribute="leading" secondItem="3XG-sE-Vy0" secondAttribute="leading" constant="55" id="bzl-vs-0VR"/>
-                                                        <constraint firstAttribute="trailing" secondItem="HLu-Vc-crC" secondAttribute="trailing" constant="5" id="zgq-gZ-xJa"/>
+                                                        <constraint firstItem="dJi-w1-rJ0" firstAttribute="leading" secondItem="3XG-sE-Vy0" secondAttribute="leading" constant="15" id="CY3-mb-HKy"/>
+                                                        <constraint firstAttribute="bottom" secondItem="dJi-w1-rJ0" secondAttribute="bottom" constant="17" id="Zdo-5x-GIS"/>
+                                                        <constraint firstItem="HLu-Vc-crC" firstAttribute="leading" secondItem="3XG-sE-Vy0" secondAttribute="leading" constant="86" id="bzl-vs-0VR"/>
+                                                        <constraint firstItem="HLu-Vc-crC" firstAttribute="leading" secondItem="dJi-w1-rJ0" secondAttribute="trailing" constant="20" id="k2x-1f-3Vv"/>
+                                                        <constraint firstAttribute="trailing" secondItem="HLu-Vc-crC" secondAttribute="trailing" constant="-7" id="zgq-gZ-xJa"/>
                                                     </constraints>
                                                 </collectionViewCellContentView>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <size key="customSize" width="236" height="68"/>
                                                 <connections>
+                                                    <outlet property="catImg" destination="dJi-w1-rJ0" id="eoS-Qd-Q0p"/>
                                                     <outlet property="title" destination="HLu-Vc-crC" id="E37-Th-uKb"/>
                                                 </connections>
                                             </collectionViewCell>
@@ -539,6 +549,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.40392160420000001" green="0.6784313917" blue="0.8078432083" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </tabBar>
                     <connections>
                         <segue destination="MuD-BV-bbj" kind="relationship" relationship="viewControllers" id="qot-iV-p1o"/>

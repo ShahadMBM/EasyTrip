@@ -81,3 +81,5 @@ let cell = tableView.dequeueReusableCell(withIdentifier: "sCell") as! searchCell
         navigationController?.pushViewController(vc1, animated: true)
     }
 }
+
+

@@ -17,7 +17,7 @@ class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDeleg
     
     @IBOutlet weak var mapview: MKMapView!
     var locationMnager = CLLocationManager()
-    let categoery = ["Home" , "work" , "gym"]
+    var categoery = [map (photo:UIImage(named:"Home")! ,title: "Home"), map(photo: UIImage(named:"Work")!, title: "Work") , map (photo: UIImage(named:"Gym")!, title: "Gym")]
     
     override func viewDidLoad() {
         
@@ -124,9 +124,12 @@ class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDeleg
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
 //
-
+  
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell" , for: indexPath) as! categoryMapCell
-        cell.title.text = categoery[indexPath.row]
+        let ca = categoery[indexPath.row]
+        cell.setCell(photo: ca.photo, title1: ca.title)
+        cell.layer.cornerRadius = 20.0
+        
        
 //
      return cell
@@ -139,5 +142,10 @@ class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDeleg
 
    
     }
-    
 
+struct map {
+
+var photo : UIImage
+var title: String
+    
+}
