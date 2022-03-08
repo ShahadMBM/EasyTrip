@@ -27,6 +27,14 @@ class offerCollectionViewCell: UICollectionViewCell {
         img.image = photo
         advs.text = ad
         cobon.text = co
+        
+        self.advs.isAccessibilityElement = false
+        self.cobon.isAccessibilityElement = false
+        isAccessibilityElement = true
+        accessibilityLabel = "Offer is \(ad) cobon code \(co) tap here for reedeme"
+        
+        
+        
 
     }
 
