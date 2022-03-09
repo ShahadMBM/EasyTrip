@@ -1,0 +1,129 @@
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "32W-Uf-ivS"; */
+"32W-Uf-ivS.text" = "Label";
+
+/* Class = "UISearchBar"; placeholder = "Drop off"; ObjectID = "3Z0-8G-tFJ"; */
+"3Z0-8G-tFJ.placeholder" = "Drop off";
+
+/* Class = "UISearchBar"; 3Z0-8G-tFJ.scopeButtonTitles[0] = "Title"; ObjectID = "3Z0-8G-tFJ"; */
+"3Z0-8G-tFJ.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; 3Z0-8G-tFJ.scopeButtonTitles[1] = "Title"; ObjectID = "3Z0-8G-tFJ"; */
+"3Z0-8G-tFJ.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "4Fz-49-Wbm"; */
+"4Fz-49-Wbm.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Go to App"; ObjectID = "6NP-CB-xxm"; */
+"6NP-CB-xxm.configuration.title" = "Go to App";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "6NP-CB-xxm"; */
+"6NP-CB-xxm.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Offer"; ObjectID = "6Sq-Hb-Ua7"; */
+"6Sq-Hb-Ua7.title" = "Offer";
+
+/* Class = "UINavigationItem"; title = "Select destanation"; ObjectID = "89T-rg-iUi"; */
+"89T-rg-iUi.title" = "Select destanation";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ALm-rj-GAM"; */
+"ALm-rj-GAM.text" = "Label";
+
+/* Class = "UILabel"; text = "Settings"; ObjectID = "F5c-5M-gHX"; */
+"F5c-5M-gHX.text" = "Settings";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "HLu-Vc-crC"; */
+"HLu-Vc-crC.text" = "Label";
+
+/* Class = "UILabel"; text = "Mode"; ObjectID = "ICp-Zv-wpT"; */
+"ICp-Zv-wpT.text" = "Mode";
+
+/* Class = "UILabel"; text = " Label Label Label Label Label Label Label  Label Label Label"; ObjectID = "JS5-IW-hkB"; */
+"JS5-IW-hkB.text" = " Label Label Label Label Label Label Label  Label Label Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "M2i-Pj-s4S"; */
+"M2i-Pj-s4S.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "More"; ObjectID = "NPg-eD-Zvw"; */
+"NPg-eD-Zvw.title" = "More";
+
+/* Class = "UITextField"; text = "+966123456789"; ObjectID = "POA-YQ-jsA"; */
+"POA-YQ-jsA.text" = "+966123456789";
+
+/* Class = "UILabel"; text = "General"; ObjectID = "RqC-Ed-zE0"; */
+"RqC-Ed-zE0.text" = "General";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SM2-Eu-CfB"; */
+"SM2-Eu-CfB.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "EN | AR"; ObjectID = "TAo-bw-fEN"; */
+"TAo-bw-fEN.configuration.title" = "EN | AR";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "TAo-bw-fEN"; */
+"TAo-bw-fEN.normalTitle" = "Button";
+
+/* Class = "UINavigationItem"; title = "Available Cars"; ObjectID = "Uzu-cZ-p7a"; */
+"Uzu-cZ-p7a.title" = "Available Cars";
+
+/* Class = "UISegmentedControl"; V1h-SU-aG5.segmentTitles[0] = "Light"; ObjectID = "V1h-SU-aG5"; */
+"V1h-SU-aG5.segmentTitles[0]" = "Light";
+
+/* Class = "UISegmentedControl"; V1h-SU-aG5.segmentTitles[1] = "Dark"; ObjectID = "V1h-SU-aG5"; */
+"V1h-SU-aG5.segmentTitles[1]" = "Dark";
+
+/* Class = "UITextField"; text = "Appleuser@icloud.com"; ObjectID = "V69-Or-n2r"; */
+"V69-Or-n2r.text" = "Appleuser@icloud.com";
+
+/* Class = "UINavigationItem"; title = "About Us"; ObjectID = "XKf-mp-YpZ"; */
+"XKf-mp-YpZ.title" = "About Us";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "bqj-Tu-fi8"; */
+"bqj-Tu-fi8.normalTitle" = "Button";
+
+/* Class = "UISegmentedControl"; dd0-Ey-We9.segmentTitles[0] = "Economy "; ObjectID = "dd0-Ey-We9"; */
+"dd0-Ey-We9.segmentTitles[0]" = "Economy ";
+
+/* Class = "UISegmentedControl"; dd0-Ey-We9.segmentTitles[1] = "XL "; ObjectID = "dd0-Ey-We9"; */
+"dd0-Ey-We9.segmentTitles[1]" = "XL ";
+
+/* Class = "UISegmentedControl"; dd0-Ey-We9.segmentTitles[2] = "VIP"; ObjectID = "dd0-Ey-We9"; */
+"dd0-Ey-We9.segmentTitles[2]" = "VIP";
+
+/* Class = "UILabel"; text = "About Us"; ObjectID = "e0h-mM-Y03"; */
+"e0h-mM-Y03.text" = "About Us";
+
+/* Class = "UILabel"; text = "       Language"; ObjectID = "gSX-a6-Yv4"; */
+"gSX-a6-Yv4.text" = "       Language";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "mSM-wO-QWF"; */
+"mSM-wO-QWF.text" = "Label";
+
+/* Class = "UITextField"; text = "Ahmad"; ObjectID = "rSs-bl-25C"; */
+"rSs-bl-25C.text" = "Ahmad";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "rqe-SB-Qxb"; */
+"rqe-SB-Qxb.title" = "Item";
+
+/* Class = "UISearchBar"; placeholder = "Curren location"; ObjectID = "uBe-z4-Z98"; */
+"uBe-z4-Z98.placeholder" = "Curren location";
+
+/* Class = "UISearchBar"; uBe-z4-Z98.scopeButtonTitles[0] = "Title"; ObjectID = "uBe-z4-Z98"; */
+"uBe-z4-Z98.scopeButtonTitles[0]" = "Title";
+
+/* Class = "UISearchBar"; uBe-z4-Z98.scopeButtonTitles[1] = "Title"; ObjectID = "uBe-z4-Z98"; */
+"uBe-z4-Z98.scopeButtonTitles[1]" = "Title";
+
+/* Class = "UILabel"; text = "An application  that compares different transportation firms' services in order to get the best transportation experience"; ObjectID = "yhh-qY-PZV"; */
+"yhh-qY-PZV.text" = "An application  that compares different transportation firms' services in order to get the best transportation experience";
+
+/* Class = "UITabBarItem"; title = "Offer"; ObjectID = "yoJ-U9-ggl"; */
+"yoJ-U9-ggl.title" = "Offer";
+
+/* Class = "UISegmentedControl"; z49-tY-vO0.segmentTitles[0] = "All"; ObjectID = "z49-tY-vO0"; */
+"z49-tY-vO0.segmentTitles[0]" = "All";
+
+/* Class = "UISegmentedControl"; z49-tY-vO0.segmentTitles[1] = "Uber"; ObjectID = "z49-tY-vO0"; */
+"z49-tY-vO0.segmentTitles[1]" = "Uber";
+
+/* Class = "UISegmentedControl"; z49-tY-vO0.segmentTitles[2] = "Careem"; ObjectID = "z49-tY-vO0"; */
+"z49-tY-vO0.segmentTitles[2]" = "Careem";

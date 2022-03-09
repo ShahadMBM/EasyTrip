@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  EasyTrip
+
+  Created by Shaden Almuhaidib on 08/03/2022.
+  
+*/
+// More tab
+"general" = "General";
+"aboutUS" = "About US";
+"settings" = "Settings";
+"language" = "Language";
+"mode" = "Mode";
+"EN|AR" = "EN|AR";
+"light" = "Light";
+"dark" = "Dark";
+"more" = "More";
+
+// About us tab
+
+"An application  that compares different transportation firms' services in order to get the best transportation experience" = "An application  that compares different transportation firms' services in order to get the best transportation experience";
+
+
+// offers tab
+
+"Invite a friend and get 14% offer" = " Invite a friend and get 14% offer" ;
+"Invite a friend and get 17%" = "Invite a friend and get 17%" ;
+"offer" = "offer" ;
