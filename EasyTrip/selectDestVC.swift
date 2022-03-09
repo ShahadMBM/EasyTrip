@@ -30,7 +30,7 @@ class selectDestVC: UIViewController,UITableViewDelegate, UITableViewDataSource 
         currentSearch.setImage(UIImage(), for: .search, state: .normal)
         searchBar.setImage(UIImage(), for: .search, state: .focused)
        // searchbar.
-
+        self.title = NSLocalizedString("SL", comment: "")
         
         // Do any additional setup after loading the view.
     }

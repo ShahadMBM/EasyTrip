@@ -17,7 +17,7 @@ class MapVC: UIViewController , CLLocationManagerDelegate, UICollectionViewDeleg
     
     @IBOutlet weak var mapview: MKMapView!
     var locationMnager = CLLocationManager()
-    var categoery = [map (photo:UIImage(named:"Home")! ,title: "Home"), map(photo: UIImage(named:"Work")!, title: "Work") , map (photo: UIImage(named:"Gym")!, title: "Gym")]
+    var categoery = [map (photo:UIImage(named:"Home")! ,title: NSLocalizedString("Home", comment: "")), map(photo: UIImage(named:"Work")!, title: NSLocalizedString("Work", comment: "")) , map (photo: UIImage(named:"Gym")!, title: NSLocalizedString("Gym", comment: ""))]
     
     override func viewDidLoad() {
         

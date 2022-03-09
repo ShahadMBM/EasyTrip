@@ -9,77 +9,53 @@ import UIKit
 
 class MoreTableViewController: UITableViewController {
     
-    @IBOutlet weak var nameSymbol: UIImageView!
+ 
+    @IBOutlet weak var name: UILabel!
     
-    @IBOutlet weak var emailSymbol: UIImageView!
-    
-    @IBOutlet weak var phoneSymbol: UIImageView!
-    
-    @IBOutlet weak var aboutusSymbol: UIImageView!
-    
-    @IBOutlet weak var languageSymbol: UIImageView!
-    
-    @IBOutlet weak var modeSymbol: UIImageView!
-    
-    
-    @IBOutlet weak var personName: UITextField!
+ 
     @IBOutlet weak var settingLable: UILabel!
     @IBOutlet weak var languageLable: UILabel!
     @IBOutlet weak var modeLable: UILabel!
     @IBOutlet weak var generalLable: UILabel!
-    @IBOutlet weak var languageButton: UIButton!
+    @IBOutlet weak var aboutUS: UILabel!
     
-    @IBOutlet weak var editButton: UIButton!
+    @IBOutlet weak var btn: UIButton!
+    @IBOutlet weak var languageSegmented: UISegmentedControl!
+
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      
+// btn.setImage(NSLocalizedString("chevron.right", comment: ""), for: .normal)
+        
+        self.title = NSLocalizedString("more", comment: "")
         generalLable.text = NSLocalizedString("general", comment: "")
-        languageButton.setTitle(NSLocalizedString("EN|AR", comment: ""), for: .normal)
+        
+//        languageButton.setTitle(NSLocalizedString("EN|AR", comment: ""), for: .normal)
+        
         languageLable.text = NSLocalizedString("language", comment: "")
         modeLable.text = NSLocalizedString("mode", comment: "")
         settingLable.text = NSLocalizedString("settings", comment: "")
+        aboutUS.text = NSLocalizedString("aboutUS", comment: "")
     }
     
-    @IBAction func languageButton(_ sender: Any) {
-        let currentLang = Locale.current.languageCode
-        let newLanguage = currentLang == "en" ? " ar" : "en"
-        UserDefaults.standard.setValue(newLanguage, forKey: "AppleLanguages")
-        exit(0)
-        
-    }
-        
-//        func NSLocalizedString(_ key: String, tableName: String? = default, bundel: Bundle = default, value: String = default, comment: String)-> String {
-//
-//        //let string = NSLocalizedString("general", comment: "")
-//
-//        }
-        
-        //     let currentLang = Locale.current.languageCode
-   //     let newLanguage = currentLang == "en" ? "ar" : "en"
-        
-    //    UserDefaults.standard.setValue([newLanguage], forKey: "AppleLanguages")
-        
-        
-    //   UserDefaults.standard.setValue([newLanguage], forkey: "AppleLanguages")
-      //  exit(0)
-    
-    
-    @IBAction func userName(_ sender: UITextField) {
-    }
-    @IBAction func userEmail(_ sender: UITextField) {
-    }
-    @IBAction func userPhone(_ sender: UITextField) {
-    }
-  
-    @IBAction func editButton(_ sender: Any) {
-        
-    }
-    
+    @IBAction func languageSeg(_ sender: UISegmentedControl) {
 
-    // MARK: - Table view data source
+        let alert = UIAlertController(title: "Change language", message: "Need to re-start app", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default, handler: { UIAlertAction in
+             exit(0)
+           }))
+           present(alert, animated: true)
+           {
+             let currentLang = Locale.current.languageCode
+             let newLang = currentLang == "en" ? "ar" : "en"
+             UserDefaults.standard.setValue([newLang], forKey: "AppleLanguages")
+    }
+        
+        
+    
+    }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
@@ -96,7 +72,7 @@ class MoreTableViewController: UITableViewController {
         if indexPath.section == 0 {
             if indexPath.row == 2 {
                 
-                performSegue(withIdentifier: "goToDetals", sender: nil)
+//                performSegue(withIdentifier: "goToDetals", sender: nil)
                 
             }
         }

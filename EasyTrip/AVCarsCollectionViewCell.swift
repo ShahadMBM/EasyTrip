@@ -16,10 +16,15 @@ class AVCarsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var TaxiNearby: UILabel!
     var selectedApp: String?
     
-    @IBOutlet weak var taxiApp: UIButton!
-    //@IBOutlet weak var DIV: UIView!
+    @IBOutlet weak var goAppBtnOL: UIButton!
+  
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+        goAppBtnOL.setTitle(NSLocalizedString("GTA", comment: ""), for: .normal)
+    }
     
-    func setupCell (TXimg :UIImage, TXname: String , TXprice: String, TXnearby : String){
+    func setupCell(TXimg :UIImage, TXname: String , TXprice: String, TXnearby : String) {
        
         TaxiImg.image = TXimg
         TaxiName.text = TXname
@@ -36,7 +41,9 @@ class AVCarsCollectionViewCell: UICollectionViewCell {
     }
     
     @IBAction func gotoApp(_ sender: UIButton) {
-
+//        goAppBtnOL.text = NSLocalizedString("offer", comment: "")
+////
+  
         switch selectedApp {
           case "Uber":
             return UIApplication.shared.open(URL(string: "https://m.uber.com/ul/")!)

@@ -5,6 +5,14 @@
   Created by Shaden Almuhaidib on 08/03/2022.
   
 */
+
+"chevron.right" = "chevron.right";
+// Map page
+
+"Home" = "Home";
+"Gym" = "Gym";
+"Work" = "Work";
+
 // More tab
 "general" = "General";
 "aboutUS" = "About US";
@@ -23,6 +31,32 @@
 
 // offers tab
 
-"Invite a friend and get 14% offer" = " Invite a friend and get 14% offer" ;
-"Invite a friend and get 17%" = "Invite a friend and get 17%" ;
-"offer" = "offer" ;
+"14" = " Invite a friend and get 14% offer" ;
+"17" = "Invite a friend and get 17%" ;
+"offer" = "Offer";
+
+// AV Cars
+
+"GTA" = "Go to App";
+"SL" = "Select destanation";
+"CA" = "Available Cars";
+"Uber" = "Uber";
+"Jeeny" = "Jeeny" ;
+"Careem" = "Careem";
+"Bolt" = "Careem";
+"Cars Nearby: 3" = "Cars Nearby: 3";
+"Cars Nearby: 2" = "Cars Nearby: 2";
+"Cars Nearby: 1" = "Cars Nearby: 1";
+"SAR 26.92" = "SAR 26.92";
+"SAR 27.43" = "SAR 27.43";
+"SAR 30.76" = "SAR 30.76";
+"SAR 29.23" = "SAR 29.23";
+
+
+
+
+
+
+
+
+

@@ -23,24 +23,24 @@ class AVCarsVC: UIViewController,UICollectionViewDataSource, UICollectionViewDel
     
     
     var taxiapps =
-    [taxiapp(taxiname: "Uber", taxiprice: "SAR 26.92", taxiNearby: "Cars Nearby: 3", taxiImage:UIImage(named:"image1")!, type: .Economy) ,
+    [taxiapp(taxiname: NSLocalizedString("Uber", comment: ""), taxiprice: NSLocalizedString("SAR 26.92", comment: ""), taxiNearby: NSLocalizedString("Cars Nearby: 3", comment: ""), taxiImage:UIImage(named:"image1")!, type: .Economy) ,
                    
-     taxiapp(taxiname: "Jeeny", taxiprice: "SAR 27.43", taxiNearby: "Cars Nearby: 2", taxiImage:UIImage(named:"image2")!, type: .Economy) ,
+     taxiapp(taxiname: NSLocalizedString("Jeeny", comment: ""), taxiprice: NSLocalizedString("SAR 27.43", comment: "") , taxiNearby: NSLocalizedString("Cars Nearby: 2", comment: ""), taxiImage:UIImage(named:"image2")!, type: .Economy) ,
                    
-     taxiapp(taxiname: "Careem", taxiprice: "SAR 30.76", taxiNearby: "Cars Nearby: 3", taxiImage:UIImage(named:"image3")!, type: .Economy) ,
+     taxiapp(taxiname: NSLocalizedString("Careem", comment: ""), taxiprice:NSLocalizedString("SAR 30.76", comment: "") , taxiNearby: NSLocalizedString("Cars Nearby: 3", comment: ""), taxiImage:UIImage(named:"image3")!, type: .Economy) ,
                     
-     taxiapp(taxiname: "Bolt", taxiprice: "SAR 29.23", taxiNearby: "Cars Nearby: 1", taxiImage:UIImage(named:"image4")!, type: .Economy)]
+     taxiapp(taxiname: NSLocalizedString("Bolt", comment: ""), taxiprice: NSLocalizedString("SAR 29.23", comment: ""), taxiNearby: NSLocalizedString("Cars Nearby: 1", comment: ""), taxiImage:UIImage(named:"image4")!, type: .Economy)]
     
     var taxiappsXL =
-    [taxiapp(taxiname: "Uber", taxiprice: "SAR 26.92", taxiNearby: "Cars Nearby: 3", taxiImage:UIImage(named:"image1")!, type: .XL) ,
+    [taxiapp(taxiname: NSLocalizedString("Uber", comment: ""), taxiprice: NSLocalizedString("SAR 26.92", comment: ""), taxiNearby: NSLocalizedString("Cars Nearby: 3", comment: ""), taxiImage:UIImage(named:"image1")!, type: .XL) ,
                    
-     taxiapp(taxiname: "Jeeny", taxiprice: "SAR 27.43", taxiNearby: "Cars Nearby: 2", taxiImage:UIImage(named:"image2")!, type: .XL) ,
+     taxiapp(taxiname: NSLocalizedString("Jeeny", comment: ""), taxiprice: NSLocalizedString("SAR 27.43", comment: ""), taxiNearby: NSLocalizedString("Cars Nearby: 2", comment: ""), taxiImage:UIImage(named:"image2")!, type: .XL) ,
                    
-     taxiapp(taxiname: "Careem", taxiprice: "SAR 30.76", taxiNearby: "Cars Nearby: 3", taxiImage:UIImage(named:"image3")!, type: .XL) ]
+     taxiapp(taxiname: NSLocalizedString("Careem", comment: ""), taxiprice: NSLocalizedString("SAR 30.76", comment: ""), taxiNearby: NSLocalizedString("Cars Nearby: 3", comment: ""), taxiImage:UIImage(named:"image3")!, type: .XL) ]
     
     
     var taxiappsVIP =
-    [taxiapp(taxiname: "Uber", taxiprice: "SAR 26.92", taxiNearby: "Cars Nearby: 3", taxiImage:UIImage(named:"image1")!, type: .VIP) ,
+    [taxiapp(taxiname: NSLocalizedString("Uber", comment: ""), taxiprice: NSLocalizedString("SAR 26.92", comment: ""), taxiNearby: NSLocalizedString("Cars Nearby: 3", comment: ""), taxiImage:UIImage(named:"image1")!, type: .VIP) ,
                    
                     
      taxiapp(taxiname: "Bolt", taxiprice: "SAR 29.23", taxiNearby: "Cars Nearby: 1", taxiImage:UIImage(named:"image4")!, type: .VIP)]
@@ -50,6 +50,7 @@ class AVCarsVC: UIViewController,UICollectionViewDataSource, UICollectionViewDel
         
         collectionView.delegate = self
         collectionView.dataSource = self
+        self.title = NSLocalizedString("CA", comment: "")
         // Do any additional setup after loading the view.
     }
     
