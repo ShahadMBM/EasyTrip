@@ -16,6 +16,8 @@ class ViewController: UIViewController {
         self.title = NSLocalizedString("aboutUS", comment: "")
         des.text = NSLocalizedString("An application  that compares different transportation firms' services in order to get the best transportation experience", comment: "")
         // "An application  that compares different transportation firms' services in order to get the best transportation experience"
+        
+      
     }
 
 
